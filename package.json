@@ -1,0 +1,78 @@
+{
+  "name": "async-event-pipeline",
+  "version": "2025.9.8",
+  "description": "A lightweight, zero-dependency package for defining a series of sequential async tasks (like filters or middleware) that pass data between them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node preview.js",
+    "build": "rollup -c",
+    "build:minify": "cross-env NODE_ENV=production rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamedul/async-event-pipeline.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "promise",
+    "pipeline",
+    "middleware",
+    "chain",
+    "queue",
+    "task",
+    "job",
+    "filter",
+    "sequential",
+    "flow",
+    "control",
+    "validation",
+    "transformation",
+    "es6",
+    "es2015"
+  ],
+  "author": "MAMEDUL ISLAM <mamedul.pub@gmail.com> (http://mamedul.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mamedul/async-event-pipeline/issues"
+  },
+  "homepage": "https://github.com/mamedul/async-event-pipeline#readme",
+  "files": [
+    "dist",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "ld+json": {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Async Event Pipeline",
+    "version": "2025.9.80",
+    "description": "A package that lets you define a series of async tasks (like filters) that run sequentially, passing data between them.",
+    "license": "https://opensource.org/licenses/MIT",
+    "author": {
+      "@type": "Person",
+      "name": "Mamedul Islam",
+      "url": "http://mamedul.github.io"
+    },
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0"
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "cross-env": "^10.0.0",
+    "rollup": "^4.50.0"
+  }
+}
