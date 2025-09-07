@@ -167,7 +167,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE "null"
 
 ## Changelog
 
-Please see the [CONTRIBUTING.md](CHANGELOG.md "null") file.
+Please see the [CHANGELOG.md](CHANGELOG.md "null") file.
 
 ## Author
 
